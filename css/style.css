@@ -1,9 +1,7 @@
 
 
 html,body{ 
-	width:100%;
 	height:100%;
-
   font-family: Lato, -apple-system, BlinkMacSystemFont, sans-serif;
     -webkit-font-smoothing: antialiased;
 }
@@ -36,7 +34,7 @@ h2 {
 }
 
 .top  {
-  margin-top: 150px;
+  margin-top: 130px;
   display: flex;
   justify-content: center;
   column-gap: 100px;
@@ -51,6 +49,13 @@ h2 {
 .age {
   display: flex;
   justify-content: center;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  font-size: large;
 }
 
 img{
@@ -156,13 +161,15 @@ h4 {
 }
 
 footer {
-  display: flex;
     justify-content: center;
-    margin-top: 50px;
     padding-top: 20px;
     background-color: #424242;
-    margin-left: -10%;
-    padding-left: 15%;
     color: white;
-    column-gap: 50px;
+    margin-left: -1%;
+    padding-bottom: 20px;
+}
+
+.footer {
+  display: flex;
+    justify-content: center;
 }
