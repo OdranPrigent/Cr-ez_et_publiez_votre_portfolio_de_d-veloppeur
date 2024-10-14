@@ -89,10 +89,9 @@ img{
 .aPropos {
   display: flex;
   margin-left: 15%;
-  margin-right: 25%;
+  margin-right: 15%;
   column-gap: 50px;
   margin-bottom: 50px;
-
   padding-top: 50px;
   padding-bottom: 50px;
 }
