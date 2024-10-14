@@ -63,6 +63,8 @@ img{
   width: 170px;
   border-radius: 150px;
   border-style: solid;
+  object-fit: cover;
+  height: 170px;
 }
 
 .vertical-line{
