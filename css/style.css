@@ -4,6 +4,7 @@ html,body{
 	height:100%;
   font-family: Lato, -apple-system, BlinkMacSystemFont, sans-serif;
     -webkit-font-smoothing: antialiased;
+    margin-right: 0px;
 }
 
 html{
@@ -146,18 +147,19 @@ h4 {
   display: flex;
   column-gap: 50px;
   object-fit: cover;
-  margin-left: 10%;
-  margin-right: 10%;
   margin-top: 25px;
+  flex-direction: column;
 }
 
 .imgP {
   height: 75px;
+  margin-bottom: 20px;
 }
 
 .imgPE {
   height: 75px;
   margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 footer {
@@ -173,6 +175,11 @@ footer {
   display: flex;
     justify-content: center;
 }
+
+.lienProjet{
+  display: flex;
+  justify-content: center;
+} 
 
 @media screen and (max-width: 800px) {
   .top {
